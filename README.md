@@ -70,7 +70,7 @@
    kubectl delete secret -n monitoring  alertmanager-my-kube-prometheus-stack-alertmanager
    ```
 
-6. Now create a configuration file with name 'alertmanager.yaml' and copy content [from here](https://github.com/shrinivaskatti5/main/slack/alertmanager.yaml)
+6. Now create a configuration file with name 'alertmanager.yaml' and copy content [from here](https://github.com/shrinivaskatti5/slack-prometheous-integration/tree/master/slack)
 
    `Note: make usre you have updated slack_web_url with the whebook url of slack`
 
